@@ -1,0 +1,8 @@
+Git Revert :-
+‘revert’ is the command we use when we want to take a previous 
+commit and add it as a new commit, keeping the log intact. First thing, we 
+need to find the point we want to return to. To do that, we need to go 
+through the log. To avoid the very long log list, use the --oneline option 
+which gives just one line per commit showing –
+i. The first seven characters of the commit hash
+ii. The commit message
